@@ -1,0 +1,15 @@
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\bin\Debug\net6.0\YoutubeBlog.Entity.deps.json
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\bin\Debug\net6.0\YoutubeBlog.Entity.dll
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\bin\Debug\net6.0\YoutubeBlog.Entity.pdb
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\bin\Debug\net6.0\YoutubeBlog.Core.dll
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\bin\Debug\net6.0\YoutubeBlog.Core.pdb
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeBlog.Entity.csproj.AssemblyReference.cache
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeBlog.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeBlog.Entity.AssemblyInfoInputs.cache
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeBlog.Entity.AssemblyInfo.cs
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeBlog.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeBlog.Entity.csproj.CopyComplete
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeBlog.Entity.dll
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\refint\YoutubeBlog.Entity.dll
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\YoutubeBlog.Entity.pdb
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Entity\obj\Debug\net6.0\ref\YoutubeBlog.Entity.dll
