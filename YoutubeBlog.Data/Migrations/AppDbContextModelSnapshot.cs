@@ -74,6 +74,32 @@ namespace YoutubeBlog.Data.Migrations
                     b.HasIndex("ImageId");
 
                     b.ToTable("Articles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("b8e7751e-b855-4b67-a56e-1fa9006f5e9a"),
+                            CategoryId = new Guid("f83e1176-e3e9-4f1f-93d9-12f1fa75c057"),
+                            Content = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\r\n\r\n",
+                            CreatedBy = "Arda",
+                            CreatedDate = new DateTime(2023, 10, 1, 4, 42, 51, 777, DateTimeKind.Local).AddTicks(9818),
+                            ImageId = new Guid("cb4c6577-3589-47df-aa66-ffd913fe1cdf"),
+                            IsActive = true,
+                            Title = "Test Title",
+                            ViewCount = 15
+                        },
+                        new
+                        {
+                            Id = new Guid("b53b8793-0285-4197-890f-d2c6b6d84b43"),
+                            CategoryId = new Guid("12e20c2d-8d09-4501-affd-aefc104fb44c"),
+                            Content = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\r\n\r\n",
+                            CreatedBy = "Arda",
+                            CreatedDate = new DateTime(2023, 10, 1, 4, 42, 51, 777, DateTimeKind.Local).AddTicks(9824),
+                            ImageId = new Guid("cd73b844-7e50-45e9-a264-ccaa84e52722"),
+                            IsActive = true,
+                            Title = "Test Title 2",
+                            ViewCount = 0
+                        });
                 });
 
             modelBuilder.Entity("YoutubeBlog.Entity.Entities.Category", b =>
@@ -111,6 +137,24 @@ namespace YoutubeBlog.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("f83e1176-e3e9-4f1f-93d9-12f1fa75c057"),
+                            CreatedBy = "Arda",
+                            CreatedDate = new DateTime(2023, 10, 1, 4, 42, 51, 778, DateTimeKind.Local).AddTicks(13),
+                            IsActive = true,
+                            Name = "Test Category"
+                        },
+                        new
+                        {
+                            Id = new Guid("12e20c2d-8d09-4501-affd-aefc104fb44c"),
+                            CreatedBy = "Arda",
+                            CreatedDate = new DateTime(2023, 10, 1, 4, 42, 51, 778, DateTimeKind.Local).AddTicks(16),
+                            IsActive = true,
+                            Name = "Test Category 2"
+                        });
                 });
 
             modelBuilder.Entity("YoutubeBlog.Entity.Entities.Image", b =>
@@ -152,6 +196,26 @@ namespace YoutubeBlog.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Images");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("cb4c6577-3589-47df-aa66-ffd913fe1cdf"),
+                            CreatedBy = "Arda",
+                            CreatedDate = new DateTime(2023, 10, 1, 4, 42, 51, 778, DateTimeKind.Local).AddTicks(106),
+                            FileName = "Test Image",
+                            FileType = "jpg",
+                            IsActive = true
+                        },
+                        new
+                        {
+                            Id = new Guid("cd73b844-7e50-45e9-a264-ccaa84e52722"),
+                            CreatedBy = "Arda",
+                            CreatedDate = new DateTime(2023, 10, 1, 4, 42, 51, 778, DateTimeKind.Local).AddTicks(109),
+                            FileName = "Test Image 2",
+                            FileType = "jpg",
+                            IsActive = true
+                        });
                 });
 
             modelBuilder.Entity("YoutubeBlog.Entity.Entities.Article", b =>

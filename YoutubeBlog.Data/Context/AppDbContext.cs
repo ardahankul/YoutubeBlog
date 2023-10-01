@@ -1,9 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection;
 using YoutubeBlog.Entity.Entities;
 
 namespace YoutubeBlog.Data.Context
@@ -21,6 +17,11 @@ namespace YoutubeBlog.Data.Context
         public DbSet<Article> Articles { get; set; } 
         public DbSet<Category> Categories { get; set; } 
         public DbSet<Image> Images { get; set; } 
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        }
 
        
     }
