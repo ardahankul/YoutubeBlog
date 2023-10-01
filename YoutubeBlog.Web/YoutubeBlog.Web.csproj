@@ -15,7 +15,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\YoutubeBlog.Core\YoutubeBlog.Core.csproj" />
     <ProjectReference Include="..\YoutubeBlog.Data\YoutubeBlog.Data.csproj" />
+    <ProjectReference Include="..\YoutubeBlog.Entity\YoutubeBlog.Entity.csproj" />
+    <ProjectReference Include="..\YoutubeBlog.Service\YoutubeBlog.Service.csproj" />
   </ItemGroup>
 
 </Project>

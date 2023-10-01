@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sgNqTfXXO0DKxGGMKAMeO0lmaLW6C1uE1Q2OsFX0STlT1s5SZQVMs7XwNpvTF1V+UcX2W1KHFw33XnH1A0f2NQ==",
+  "dgSpecHash": "VTFzZNaWXCiJHdf4DgDSPkw7Ki1ubg0mW5agA1U0gx96FVJfOUbMPH9CXy9Y6pIv/SZsebbx2rPrE1ARATUoOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ardah\\source\\repos\\YoutubeBlog\\YoutubeBlog.Web\\YoutubeBlog.Web.csproj",
   "expectedPackageFiles": [
@@ -43,6 +43,7 @@
     "C:\\Users\\ardah\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\ardah\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\ardah\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\ardah\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
     "C:\\Users\\ardah\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
     "C:\\Users\\ardah\\.nuget\\packages\\system.formats.asn1\\5.0.0\\system.formats.asn1.5.0.0.nupkg.sha512",
     "C:\\Users\\ardah\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.24.0\\system.identitymodel.tokens.jwt.6.24.0.nupkg.sha512",

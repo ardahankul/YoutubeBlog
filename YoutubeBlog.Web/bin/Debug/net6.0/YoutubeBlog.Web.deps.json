@@ -10,7 +10,10 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "7.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11",
-          "YoutubeBlog.Data": "1.0.0"
+          "YoutubeBlog.Core": "1.0.0",
+          "YoutubeBlog.Data": "1.0.0",
+          "YoutubeBlog.Entity": "1.0.0",
+          "YoutubeBlog.Service": "1.0.0"
         },
         "runtime": {
           "YoutubeBlog.Web.dll": {}
@@ -457,6 +460,13 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         }
       },
+      "System.Diagnostics.Tools/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
       "System.Drawing.Common/6.0.0": {
         "dependencies": {
           "Microsoft.Win32.SystemEvents": "6.0.0"
@@ -642,6 +652,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.11",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "System.Diagnostics.Tools": "4.3.0",
           "YoutubeBlog.Entity": "1.0.0"
         },
         "runtime": {
@@ -654,6 +666,15 @@
         },
         "runtime": {
           "YoutubeBlog.Entity.dll": {}
+        }
+      },
+      "YoutubeBlog.Service/1.0.0": {
+        "dependencies": {
+          "YoutubeBlog.Data": "1.0.0",
+          "YoutubeBlog.Entity": "1.0.0"
+        },
+        "runtime": {
+          "YoutubeBlog.Service.dll": {}
         }
       }
     }
@@ -937,6 +958,13 @@
       "path": "system.diagnostics.diagnosticsource/6.0.0",
       "hashPath": "system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512"
     },
+    "System.Diagnostics.Tools/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UUvkJfSYJMM6x527dJg2VyWPSRqIVB0Z7dbjHst1zmwTXz5CcXSYJFWRpuigfbO1Lf7yfZiIaEUesfnl/g5EyA==",
+      "path": "system.diagnostics.tools/4.3.0",
+      "hashPath": "system.diagnostics.tools.4.3.0.nupkg.sha512"
+    },
     "System.Drawing.Common/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1088,6 +1116,11 @@
       "sha512": ""
     },
     "YoutubeBlog.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YoutubeBlog.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
