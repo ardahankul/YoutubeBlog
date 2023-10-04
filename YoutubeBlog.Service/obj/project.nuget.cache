@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "QRFYFcpQUD9cUF1FvdWnBqQuY/Kv7QBS1jFcSz5wahzm2pCcYXc+m3LZd+koyBxh18hd3sFzLrmeOtlBhM+QnQ==",
+  "dgSpecHash": "t0L6BAzmhAqRBRucBFTIHr8eYc4GWdbsYgJvFygG6LTEOBXYvl0qHqNixoDwe6hVhqH4ozbaysiaxnDQCTVaxg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ardah\\source\\repos\\YoutubeBlog\\YoutubeBlog.Service\\YoutubeBlog.Service.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ardah\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\ardah\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\ardah\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ardah\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\ardah\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\ardah\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\ardah\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ardah\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "C:\\Users\\ardah\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.0\\microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "C:\\Users\\ardah\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.11\\microsoft.entityframeworkcore.7.0.11.nupkg.sha512",
