@@ -403,3 +403,5 @@ C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Web\bin\Debug\net6.0\tr\Micr
 C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Web\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Web\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Web\obj\Debug\net6.0\YoutubeBlog.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Web\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\ardah\source\repos\YoutubeBlog\YoutubeBlog.Web\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
